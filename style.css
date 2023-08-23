@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./imgs/background-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.darkmode{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Bungee Spice', cursive;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#hr1{
+    margin-top: 50px;
+}
+
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgba( 250, 250, 250, 0.2);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+h2{
+    font-family: 'Bungee Spice', cursive;
+}
+nav h2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin-right: 60px;
+}
+li{
+    margin: 15px;
+    color: #fff;
+    font-family: 'Bungee Spice', cursive;
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+nav a li:hover{
+    color: blueviolet;
+}
+
+.altura{
+    height: 100vh;
+}
+
+
+.content {
+    text-align: center;
+    padding: 50px;
+    height: 60vh;
+}
+
+.main-title {
+    font-size: 28px;
+    font-family: 'Bungee Spice', cursive;
+    margin-top: 100px;
+}
+
+.separator {
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid;
+    border-top: 2px solid #ff9100;
+}
+
+.paragraph {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Bungee Spice', cursive;
+    color: #ccc;
+}
+
+.main-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d47f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-button:hover{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.center-container {
+    text-align: center;
+}
+
+.responsive-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajusta el tamaño mínimo */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image {
+    height: 250px; /* Ajusta la altura de la imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.product-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.product-button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#log-in{
+    background-image: url();
+    background-size: cover;
+}
+
+.formulario-registro{
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+
+}
+.card-form{
+    width: 250px;
+    height: 450px;
+    background-color: #333;
+    border: 2px solid #222;
+    border-radius: 5px;
+    color: #222;
+    margin-left: 50px;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+.card-form h4{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.controls{
+    background-color: #222;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.card-form a{
+    text-decoration: none;
+    color: #222;
+}
+.card-form a:hover{
+    text-decoration: underline;
+}
+.card-form p{
+    height: 50px;
+}
+
+#boton{
+    background: #fff;
+    width: 150px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 250px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+footer i{
+    color: #9101e4;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+
+@media (max-width: 920px) {
+    
+    .responsive-button {
+    font-size: 14px;
+    }
+    
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    .menu.active ul {
+        display: flex;
+    }
+    
+    .hamburger-menu {
+        display: block;
+    }
+    
+    .products {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta el tamaño mínimo */
+        gap: 15px; /* Ajusta el espacio entre las tarjetas */
+        padding: 10px;
+    }
+    
+    .product-card {
+        calc(50% - 10px);
+    }
+}
